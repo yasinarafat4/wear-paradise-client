@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 
 const Main = () => {
   return (
-    <div>
+    <div className="bg-white dark:bg-slate-700 dark:text-white">
       <Navbar></Navbar>
       <div className="min-h-[calc(100vh-80px)]">
         <Outlet></Outlet>
