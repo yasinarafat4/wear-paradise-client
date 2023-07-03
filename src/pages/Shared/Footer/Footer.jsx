@@ -3,6 +3,7 @@ import moment from "moment";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Wave from "react-wavify";
 
 const Footer = () => {
   // Subscribe functionality
@@ -18,7 +19,20 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className="footer p-10 bg-[#CCCCCC] text-base-content">
+      {/* Wave Animation Here*/}
+      <Wave
+        fill="#90cdf4"
+        paused={false}
+        options={{
+          height: 80,
+          amplitude: 20,
+          speed: 0.3,
+          points: 3,
+        }}
+        style={{ marginBottom: "-20px" }}
+      />
+      {/* Footer */}
+      <footer className="footer px-10 bg-[#90cdf4] dark:bg-slate-700 text-base-content dark:text-white">
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
@@ -62,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer className="footer px-10 py-4 border-t  bg-[#CCCCCC] text-base-content border-base-300">
+      <footer className="footer px-10 py-4 bg-blue-300 dark:bg-slate-700 text-base-content dark:text-white">
         <div className="items-center grid-flow-col">
           <img className="h-20" src={logo} alt="" />
           <p>Copyright © {moment().format("YYYY")} - All Rights Reserved.</p>
