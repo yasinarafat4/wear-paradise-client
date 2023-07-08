@@ -2,7 +2,7 @@
   {
     "_id": "1",
     "product_name": "Classic White T-Shirt",
-    "product_image": "https://example.com/images/classic_white_tshirt.jpg",
+    "product_image": "https://i.ibb.co/mhm553Z/white-tshirt.png",
     "category": "men's",
     "available_quantity": 50,
     "description": "A timeless and comfortable white t-shirt made from premium cotton.",
@@ -11,18 +11,18 @@
   },
   {
     "_id": "2",
-    "product_name": "Elegant Black Dress",
-    "product_image": "https://example.com/images/elegant_black_dress.jpg",
+    "product_name": "Flannel Bouclé Suit",
+    "product_image": "https://i.ibb.co/vZPtM40/boucl-suit.png",
     "category": "women's",
     "available_quantity": 25,
-    "description": "A stunning black dress with a flattering fit, perfect for special occasions.",
+    "description": "A stunning black Bouclé Suit a flattering fit, perfect for special occasions.",
     "quality": "popular",
     "price": 79.99
   },
   {
     "_id": "3",
     "product_name": "Leather Loafers",
-    "product_image": "https://example.com/images/leather_loafers.jpg",
+    "product_image": "https://i.ibb.co/8Bt0LyP/leather-loafers.png",
     "category": "shoes",
     "available_quantity": 40,
     "description": "Classic leather loafers for a sophisticated and comfortable look.",
@@ -31,8 +31,8 @@
   },
   {
     "_id": "4",
-    "product_name": "Stylish Handbag",
-    "product_image": "https://example.com/images/stylish_handbag.jpg",
+    "product_name": "Louis Vuitton Handbag",
+    "product_image": "https://i.ibb.co/sy9wr7Q/vuitton-handbag.png",
     "category": "bags",
     "available_quantity": 15,
     "description": "A chic and spacious handbag to complement any outfit.",
@@ -41,8 +41,8 @@
   },
   {
     "_id": "5",
-    "product_name": "Sporty Chronograph Watch",
-    "product_image": "https://example.com/images/sporty_watch.jpg",
+    "product_name": "Sporty Chronograph",
+    "product_image": "https://i.ibb.co/xMkFb1m/sporty-chronograph.png",
     "category": "watches",
     "available_quantity": 20,
     "description": "A durable and stylish chronograph watch for active individuals.",
@@ -52,7 +52,7 @@
   {
     "_id": "6",
     "product_name": "Striped Polo Shirt",
-    "product_image": "https://example.com/images/striped_polo.jpg",
+    "product_image": "https://i.ibb.co/2vgdwcz/striped-polo.png",
     "category": "men's",
     "available_quantity": 30,
     "description": "A classic striped polo shirt made from breathable fabric.",
@@ -62,7 +62,7 @@
   {
     "_id": "7",
     "product_name": "Flowy Floral Dress",
-    "product_image": "https://example.com/images/flowy_floral_dress.jpg",
+    "product_image": "https://i.ibb.co/LNqLV1Q/flowy-floral.png",
     "category": "women's",
     "available_quantity": 10,
     "description": "A beautiful floral dress with a flowy silhouette for a romantic look.",
@@ -72,7 +72,7 @@
   {
     "_id": "8",
     "product_name": "Casual Canvas Sneakers",
-    "product_image": "https://example.com/images/canvas_sneakers.jpg",
+    "product_image": "https://i.ibb.co/4FhbrMS/canvas-sneakers.png",
     "category": "shoes",
     "available_quantity": 35,
     "description": "Comfortable and versatile canvas sneakers for everyday wear.",
@@ -81,8 +81,8 @@
   },
   {
     "_id": "9",
-    "product_name": "Stylish Clutch Bag",
-    "product_image": "https://example.com/images/stylish_clutch.jpg",
+    "product_name": "Clutch Bag",
+    "product_image": "https://i.ibb.co/XYcxJZY/clutch-bag.png",
     "category": "bags",
     "available_quantity": 12,
     "description": "A trendy and compact clutch bag with a detachable chain strap.",
@@ -91,18 +91,18 @@
   },
   {
     "_id": "10",
-    "product_name": "Minimalist Leather Watch",
-    "product_image": "https://example.com/images/minimalist_watch.jpg",
+    "product_name": "Minimalist Watch",
+    "product_image": "https://i.ibb.co/Sf6VGgr/Minimalist.png",
     "category": "watches",
     "available_quantity": 18,
-    "description": "A sleek and minimalist leather watch for a sophisticated look.",
+    "description": "A sleek and minimalist watch for a sophisticated look.",
     "quality": "popular",
     "price": 99.99
   },
   {
     "_id": "11",
     "product_name": "Cozy Hooded Sweatshirt",
-    "product_image": "https://example.com/images/cozy_hoodie.jpg",
+    "product_image": "https://i.ibb.co/JRwzPzC/cozy-hooded.png",
     "category": "men's",
     "available_quantity": 20,
     "description": "A comfortable and warm hooded sweatshirt for casual wear.",
@@ -112,7 +112,7 @@
   {
     "_id": "12",
     "product_name": "Flowy Maxi Dress",
-    "product_image": "https://example.com/images/flowy_maxi_dress.jpg",
+    "product_image": "https://i.ibb.co/SdBWGNz/flowy-maxi.png",
     "category": "women's",
     "available_quantity": 15,
     "description": "An elegant and flowy maxi dress perfect for summer events.",
@@ -132,7 +132,7 @@
   {
     "_id": "14",
     "product_name": "Chic Crossbody Bag",
-    "product_image": "https://example.com/images/crossbody_bag.jpg",
+    "product_image": "https://i.ibb.co/PcNGhfx/crossbody-bag.png",
     "category": "bags",
     "available_quantity": 25,
     "description": "A stylish and compact crossbody bag for everyday essentials.",
@@ -142,7 +142,7 @@
   {
     "_id": "15",
     "product_name": "Luxury Automatic Watch",
-    "product_image": "https://example.com/images/luxury_watch.jpg",
+    "product_image": "https://i.ibb.co/7JNmDrG/luxury-automatic.png",
     "category": "watches",
     "available_quantity": 10,
     "description": "An exquisite and high-end automatic watch with intricate details.",
@@ -152,7 +152,7 @@
   {
     "_id": "16",
     "product_name": "Slim Fit Chinos",
-    "product_image": "https://example.com/images/slim_fit_chinos.jpg",
+    "product_image": "https://i.ibb.co/NVk8Sq0/slim-fit-chinos.png",
     "category": "men's",
     "available_quantity": 35,
     "description": "Versatile and modern slim fit chinos for a sleek appearance.",
@@ -162,7 +162,7 @@
   {
     "_id": "17",
     "product_name": "Bohemian Midi Skirt",
-    "product_image": "https://example.com/images/bohemian_skirt.jpg",
+    "product_image": "https://i.ibb.co/vzPKX3N/midi-skirt.png",
     "category": "women's",
     "available_quantity": 18,
     "description": "A beautiful bohemian-inspired midi skirt with a unique pattern.",
@@ -172,7 +172,7 @@
   {
     "_id": "18",
     "product_name": "Classic Leather Boots",
-    "product_image": "https://example.com/images/leather_boots.jpg",
+    "product_image": "https://i.ibb.co/KjxLh1p/leather-boots.png",
     "category": "shoes",
     "available_quantity": 22,
     "description": "Timeless and durable leather boots for a stylish winter look.",
@@ -181,8 +181,8 @@
   },
   {
     "_id": "19",
-    "product_name": "Stylish Tote Bag",
-    "product_image": "https://example.com/images/stylish_tote.jpg",
+    "product_name": "Stylish Backpack",
+    "product_image": "https://i.ibb.co/X7T4g6K/stylish-backpack.png",
     "category": "bags",
     "available_quantity": 20,
     "description": "A fashionable and spacious tote bag with multiple compartments.",
@@ -192,7 +192,7 @@
   {
     "_id": "20",
     "product_name": "Classic Diver's Watch",
-    "product_image": "https://example.com/images/divers_watch.jpg",
+    "product_image": "https://i.ibb.co/mFqdBxz/diver-s-watch.png",
     "category": "watches",
     "available_quantity": 15,
     "description": "A reliable and water-resistant diver's watch for adventurous souls.",
