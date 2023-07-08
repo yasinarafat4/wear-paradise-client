@@ -8,7 +8,7 @@ import img4 from "../../../assets/images/banner/banner-4.png";
 
 const Banner = () => {
   return (
-    <Carousel className="text-center w-11/12 mx-auto">
+    <Carousel className="text-center w-full lg:w-11/12 mx-auto">
       <div>
         <img src={img1} />
       </div>
