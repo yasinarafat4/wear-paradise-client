@@ -1,9 +1,13 @@
-import {} from "react";
+import { Helmet } from "react-helmet-async";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
   return (
     <div className="bg-white dark:bg-slate-700 dark:text-white">
-      <h2>This is Home</h2>
+      <Helmet>
+        <title>WP | Home</title>
+      </Helmet>
+      <Banner></Banner>
     </div>
   );
 };
