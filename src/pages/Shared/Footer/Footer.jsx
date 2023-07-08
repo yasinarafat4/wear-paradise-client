@@ -32,7 +32,7 @@ const Footer = () => {
         style={{ marginBottom: "-20px" }}
       />
       {/* Footer */}
-      <footer className="footer px-10 bg-[#90cdf4] dark:bg-slate-700 text-base-content dark:text-white">
+      <footer className="footer px-10 pt-6 bg-[#90cdf4] dark:bg-slate-700 text-base-content dark:text-white">
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
@@ -55,9 +55,11 @@ const Footer = () => {
         </div>
         <div>
           <span className="footer-title">Newsletter</span>
-          <div className="form-control w-80">
+          <div className="form-control">
             <label className="label">
-              <span className="label-text">Enter your email address</span>
+              <span className="label-text dark:bg-slate-700 text-base-content dark:text-white">
+                Enter your email address
+              </span>
             </label>
             <div className="relative">
               <input
