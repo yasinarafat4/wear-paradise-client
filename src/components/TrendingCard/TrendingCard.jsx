@@ -11,7 +11,7 @@ const TrendingCard = ({ product }) => {
         alt=""
       />
       <div className="space-y-1">
-        <p className="font-medium">{product_name}</p>
+        <h2 className="font-medium text-xl">{product_name}</h2>
         <p>
           <span className="font-medium">Price:</span> ${price}
         </p>

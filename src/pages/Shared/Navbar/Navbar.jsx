@@ -39,8 +39,8 @@ const Navbar = () => {
         </div>
         <div
           className={`absolute lg:static bg-[#90cdf4] dark:bg-slate-700 dark:text-white min-h-[60vh] lg:min-h-fit left-0 ${
-            isMenuOpen ? "top-[20%] md:top-[22%]" : "top-[-100%]"
-          } w-full lg:w-auto flex items-center px-5 duration-700`}
+            isMenuOpen ? "top-[19%] md:top-[22%]" : "top-[-100%]"
+          } w-full lg:w-auto flex items-center px-5 duration-700 z-10`}
         >
           <div className="flex lg:flex-row flex-col lg:items-center gap-[3vw] lg:gap-[2vw] xl:gap-[3vw]">
             <NavLink
