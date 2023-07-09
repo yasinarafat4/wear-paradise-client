@@ -7,6 +7,7 @@
     "available_quantity": 50,
     "description": "A timeless and comfortable white t-shirt made from premium cotton.",
     "quality": "random",
+    "rating": 4.5,
     "price": 19.99
   },
   {
@@ -17,6 +18,7 @@
     "available_quantity": 25,
     "description": "A stunning black Bouclé Suit a flattering fit, perfect for special occasions.",
     "quality": "popular",
+    "rating": 4,
     "price": 79.99
   },
   {
@@ -27,6 +29,7 @@
     "available_quantity": 40,
     "description": "Classic leather loafers for a sophisticated and comfortable look.",
     "quality": "random",
+    "rating": 3.5,
     "price": 59.99
   },
   {
@@ -37,6 +40,7 @@
     "available_quantity": 15,
     "description": "A chic and spacious handbag to complement any outfit.",
     "quality": "popular",
+    "rating": 4,
     "price": 39.99
   },
   {
@@ -47,6 +51,7 @@
     "available_quantity": 20,
     "description": "A durable and stylish chronograph watch for active individuals.",
     "quality": "popular",
+    "rating": 4.5,
     "price": 149.99
   },
   {
@@ -57,6 +62,7 @@
     "available_quantity": 30,
     "description": "A classic striped polo shirt made from breathable fabric.",
     "quality": "popular",
+    "rating": 5,
     "price": 29.99
   },
   {
@@ -67,16 +73,18 @@
     "available_quantity": 10,
     "description": "A beautiful floral dress with a flowy silhouette for a romantic look.",
     "quality": "random",
+    "rating": 5,
     "price": 89.99
   },
   {
     "_id": "8",
-    "product_name": "Casual Canvas Sneakers",
+    "product_name": "Canvas Sneakers",
     "product_image": "https://i.ibb.co/4FhbrMS/canvas-sneakers.png",
     "category": "trending",
     "available_quantity": 35,
     "description": "Comfortable and versatile canvas sneakers for everyday wear.",
     "quality": "popular",
+    "rating": 4,
     "price": 49.99
   },
   {
@@ -87,6 +95,7 @@
     "available_quantity": 12,
     "description": "A trendy and compact clutch bag with a detachable chain strap.",
     "quality": "random",
+    "rating": 3.5,
     "price": 34.99
   },
   {
@@ -97,6 +106,7 @@
     "available_quantity": 18,
     "description": "A sleek and minimalist watch for a sophisticated look.",
     "quality": "popular",
+    "rating": 4.5,
     "price": 99.99
   },
   {
@@ -107,6 +117,7 @@
     "available_quantity": 20,
     "description": "A comfortable and warm hooded sweatshirt for casual wear.",
     "quality": "random",
+    "rating": 3.5,
     "price": 39.99
   },
   {
@@ -117,6 +128,7 @@
     "available_quantity": 15,
     "description": "An elegant and flowy maxi dress perfect for summer events.",
     "quality": "popular",
+    "rating": 4,
     "price": 69.99
   },
   {
@@ -127,6 +139,7 @@
     "available_quantity": 30,
     "description": "Timeless and sophisticated Oxford shoes for a polished look.",
     "quality": "random",
+    "rating": 5,
     "price": 79.99
   },
   {
@@ -137,6 +150,7 @@
     "available_quantity": 25,
     "description": "A stylish and compact crossbody bag for everyday essentials.",
     "quality": "popular",
+    "rating": 4,
     "price": 49.99
   },
   {
@@ -147,6 +161,7 @@
     "available_quantity": 10,
     "description": "An exquisite and high-end automatic watch with intricate details.",
     "quality": "popular",
+    "rating": 4.5,
     "price": 299.99
   },
   {
@@ -157,6 +172,7 @@
     "available_quantity": 35,
     "description": "Versatile and modern slim fit chinos for a sleek appearance.",
     "quality": "random",
+    "rating": 4,
     "price": 59.99
   },
   {
@@ -167,6 +183,7 @@
     "available_quantity": 18,
     "description": "A beautiful bohemian-inspired midi skirt with a unique pattern.",
     "quality": "random",
+    "rating": 4.5,
     "price": 49.99
   },
   {
@@ -177,6 +194,7 @@
     "available_quantity": 22,
     "description": "Timeless and durable leather boots for a stylish winter look.",
     "quality": "popular",
+    "rating": 4,
     "price": 89.99
   },
   {
@@ -187,6 +205,7 @@
     "available_quantity": 20,
     "description": "A fashionable and spacious tote bag with multiple compartments.",
     "quality": "random",
+    "rating": 5,
     "price": 59.99
   },
   {
@@ -197,6 +216,7 @@
     "available_quantity": 15,
     "description": "A reliable and water-resistant diver's watch for adventurous souls.",
     "quality": "popular",
+    "rating": 4.5,
     "price": 179.99
   }
 ]
