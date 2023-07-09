@@ -3,7 +3,7 @@
     "_id": "1",
     "product_name": "Classic White T-Shirt",
     "product_image": "https://i.ibb.co/mhm553Z/white-tshirt.png",
-    "category": "men's",
+    "category": "trending",
     "available_quantity": 50,
     "description": "A timeless and comfortable white t-shirt made from premium cotton.",
     "quality": "random",
@@ -43,10 +43,10 @@
     "_id": "5",
     "product_name": "Sporty Chronograph",
     "product_image": "https://i.ibb.co/xMkFb1m/sporty-chronograph.png",
-    "category": "watches",
+    "category": "trending",
     "available_quantity": 20,
     "description": "A durable and stylish chronograph watch for active individuals.",
-    "quality": "random",
+    "quality": "popular",
     "price": 149.99
   },
   {
@@ -63,7 +63,7 @@
     "_id": "7",
     "product_name": "Flowy Floral Dress",
     "product_image": "https://i.ibb.co/LNqLV1Q/flowy-floral.png",
-    "category": "women's",
+    "category": "trending",
     "available_quantity": 10,
     "description": "A beautiful floral dress with a flowy silhouette for a romantic look.",
     "quality": "random",
@@ -73,7 +73,7 @@
     "_id": "8",
     "product_name": "Casual Canvas Sneakers",
     "product_image": "https://i.ibb.co/4FhbrMS/canvas-sneakers.png",
-    "category": "shoes",
+    "category": "trending",
     "available_quantity": 35,
     "description": "Comfortable and versatile canvas sneakers for everyday wear.",
     "quality": "popular",
@@ -83,7 +83,7 @@
     "_id": "9",
     "product_name": "Clutch Bag",
     "product_image": "https://i.ibb.co/XYcxJZY/clutch-bag.png",
-    "category": "bags",
+    "category": "trending",
     "available_quantity": 12,
     "description": "A trendy and compact clutch bag with a detachable chain strap.",
     "quality": "random",
@@ -122,7 +122,7 @@
   {
     "_id": "13",
     "product_name": "Classic Oxford Shoes",
-    "product_image": "https://example.com/images/oxford_shoes.jpg",
+    "product_image": "https://i.ibb.co/ScPtZ8d/oxford-shoes.png",
     "category": "shoes",
     "available_quantity": 30,
     "description": "Timeless and sophisticated Oxford shoes for a polished look.",
@@ -146,7 +146,7 @@
     "category": "watches",
     "available_quantity": 10,
     "description": "An exquisite and high-end automatic watch with intricate details.",
-    "quality": "random",
+    "quality": "popular",
     "price": 299.99
   },
   {
@@ -156,7 +156,7 @@
     "category": "men's",
     "available_quantity": 35,
     "description": "Versatile and modern slim fit chinos for a sleek appearance.",
-    "quality": "popular",
+    "quality": "random",
     "price": 59.99
   },
   {
