@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import logo from "../../../assets/images/logo.png";
+import { BsMoonStars, BsSun } from "react-icons/bs";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
-import { BsMoonStars, BsSun } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
+import logo from "../../../assets/images/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ const Navbar = () => {
   const onToggleMenu = () => {
     setMenuOpen(!isMenuOpen);
     console.log(isMenuOpen ? "Closed" : "Opened");
-  };
+  }; 
 
   // Dark Or Light Mood effect
   useEffect(() => {
