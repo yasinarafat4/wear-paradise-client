@@ -38,7 +38,9 @@ const Partners = () => {
   return (
     <div>
       <SectionTitle heading={"Our Partners"}></SectionTitle>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mx-4">
+      <div
+        className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mx-4"
+      >
         {partners.map((partner, index) => (
           <div
             className="flex flex-col justify-center items-center bg-slate-200 dark:bg-slate-700 rounded-lg cursor-pointer py-4 transform transition duration-500 hover:scale-105 hover:bg-[#90cdf4]"

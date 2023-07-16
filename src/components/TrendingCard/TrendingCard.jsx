@@ -1,6 +1,6 @@
 import { FaRegStar, FaStar } from "react-icons/fa";
 import Rating from "react-rating";
-
+ 
 const TrendingCard = ({ product }) => {
   const { product_image, product_name, price, rating } = product;
   return (
