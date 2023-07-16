@@ -43,7 +43,7 @@ const Partners = () => {
       >
         {partners.map((partner, index) => (
           <div
-            className="flex flex-col justify-center items-center bg-slate-200 dark:bg-slate-700 rounded-lg cursor-pointer py-4 transform transition duration-500 hover:scale-105 hover:bg-[#90cdf4]"
+            className="flex flex-col justify-center items-center bg-slate-200 dark:bg-slate-700 rounded-lg cursor-pointer py-4 transform transition duration-500 hover:scale-105 hover:bg-[#90cdf4]" data-aos="zoom-in" data-aos-duration="1000"
             key={index}
           >
             <img className="w-20" src={partner.logo} alt={partner.name} />

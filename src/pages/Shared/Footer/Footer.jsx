@@ -1,9 +1,9 @@
-import logo from "../../../assets/images/logo.png";
 import moment from "moment";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Wave from "react-wavify";
+import logo from "../../../assets/images/logo.png";
 
 const Footer = () => {
   // Subscribe functionality
@@ -14,6 +14,7 @@ const Footer = () => {
       toast.error("Please put a valid email");
     } else {
       toast.success("Subscribed. Thank you for supporting us");
+      setEmail("");
     }
   };
 
@@ -66,6 +67,7 @@ const Footer = () => {
                 type="email"
                 placeholder="Type Your Email"
                 className="input input-bordered w-full pr-16"
+                value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <button

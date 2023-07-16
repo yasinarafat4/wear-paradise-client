@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import BackToTop from "../../../components/BackToTop/BackToTop";
 import Banner from "../Banner/Banner";
+import FeaturedItems from "../FeaturedItems/FeaturedItems";
 import Partners from "../Partners/Partners";
 import ProductsCollection from "../ProductsCollection/ProductsCollection";
 import Reviews from "../Reviews/Reviews";
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner></Banner>
       <TrendingProducts></TrendingProducts>
       <ProductsCollection></ProductsCollection>
+      <FeaturedItems></FeaturedItems>
       <Reviews></Reviews>
       <Partners></Partners>
       <BackToTop></BackToTop>

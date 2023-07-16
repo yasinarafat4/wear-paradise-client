@@ -64,7 +64,7 @@ const Navbar = () => {
             isMenuOpen ? "top-[19%] md:top-[22%]" : "top-[-100%]"
           } w-full lg:w-auto flex items-center px-5 duration-700 z-10`}
         >
-          <div className="flex lg:flex-row flex-col lg:items-center gap-[3vw] lg:gap-[2vw] xl:gap-[3vw]">
+          <div className="flex lg:flex-row flex-col lg:items-center gap-[3vw] lg:gap-[2vw] xl:gap-[3vw] text-lg">
             <NavLink
               to="/"
               className={({ isActive }) =>
