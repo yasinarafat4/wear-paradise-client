@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BsMoonStars, BsSun } from "react-icons/bs";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/images/logo.png";
 
 const Navbar = () => {
@@ -34,9 +34,11 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between items-center px-3 py-2 md:px-8 md:py-4 bg-[#90cdf4] dark:bg-slate-700">
+        <Link to='/'>
         <div>
           <img src={logo} className="w-28 lg:w-36" alt="Logo" />
         </div>
+        </Link>
         <div
           className={`absolute lg:static bg-[#90cdf4] dark:bg-slate-700 dark:text-white min-h-[60vh] lg:min-h-fit left-0 ${
             isMenuOpen ? "top-[19%] md:top-[22%]" : "top-[-100%]"

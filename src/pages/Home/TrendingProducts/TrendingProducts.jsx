@@ -1,8 +1,8 @@
 import { useState } from "react";
+import Marquee from "react-fast-marquee";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import TrendingCard from "../../../components/TrendingCard/TrendingCard";
 import useProducts from "../../../hooks/useProducts";
-import Marquee from "react-fast-marquee";
 
 const TrendingProducts = () => {
   // push Marquee when Mouse Over
@@ -28,7 +28,7 @@ const TrendingProducts = () => {
         gradient={false}
         pauseOnHover={!isPaused}
       >
-        <div className="grid grid-cols-5 mx-4">
+        <div className="bg-slate-50 dark:bg-slate-700 grid grid-cols-5 mx-4">
           {trending.map((product) => (
             <TrendingCard key={product._id} product={product}></TrendingCard>
           ))}
