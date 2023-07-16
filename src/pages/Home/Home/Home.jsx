@@ -1,9 +1,10 @@
 import { Helmet } from "react-helmet-async";
+import BackToTop from "../../../components/BackToTop/BackToTop";
 import Banner from "../Banner/Banner";
-import Reviews from "../Reviews/Reviews";
-import ProductsCollection from "../ProductsCollection/ProductsCollection";
-import TrendingProducts from "../TrendingProducts/TrendingProducts";
 import Partners from "../Partners/Partners";
+import ProductsCollection from "../ProductsCollection/ProductsCollection";
+import Reviews from "../Reviews/Reviews";
+import TrendingProducts from "../TrendingProducts/TrendingProducts";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <ProductsCollection></ProductsCollection>
       <Reviews></Reviews>
       <Partners></Partners>
+      <BackToTop></BackToTop>
     </div>
   );
 };

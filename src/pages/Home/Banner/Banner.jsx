@@ -1,5 +1,5 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import img1 from "../../../assets/images/banner/banner-1.png";
 import img2 from "../../../assets/images/banner/banner-2.png";
@@ -8,7 +8,7 @@ import img4 from "../../../assets/images/banner/banner-4.png";
 
 const Banner = () => {
   return (
-    <Carousel className="text-center w-full lg:w-11/12 mx-auto">
+    <Carousel className="text-center w-full lg:w-11/12 mx-auto lg:pt-20">
       <div>
         <img src={img1} />
       </div>

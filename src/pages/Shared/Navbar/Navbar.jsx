@@ -9,6 +9,7 @@ const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [theme, setTheme] = useState("light");
+  const [isNavbarVisible, setNavbarVisible] = useState(true);
 
   // Menu toggle functionality
   const onToggleMenu = () => {
@@ -31,8 +32,27 @@ const Navbar = () => {
     setIsDarkMode(!isDarkMode);
   };
 
+    // Scroll event handler
+    useEffect(() => {
+      const handleScroll = () => {
+        const isTop = window.scrollY === 0;
+        setNavbarVisible(isTop);
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+
   return (
     <>
+     <div
+        className={`lg:fixed lg:w-full lg:transition-transform duration-300 z-10 ${
+          isNavbarVisible ? "lg:translate-y-0" : "lg:translate-y-0"
+        }`}
+      >
       <div className="flex justify-between items-center px-3 py-2 md:px-8 md:py-4 bg-[#90cdf4] dark:bg-slate-700">
         <Link to='/'>
         <div>
@@ -140,6 +160,7 @@ const Navbar = () => {
             />
           )}
         </div>
+      </div>
       </div>
     </>
   );
