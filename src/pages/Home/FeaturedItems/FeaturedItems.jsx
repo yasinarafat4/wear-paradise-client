@@ -32,15 +32,15 @@ const FeaturedItems = () => {
       >
         <SwiperSlide>
           <div className="md:grid grid-cols-2 justify-center items-center bg-gradient-to-r from-red-400 to-purple-700 py-8">
-            <img src="https://i.ibb.co/Mgwtmvh/img1-2.png" alt="" />
+            <img src="https://i.ibb.co/Mgwtmvh/img1-2.png" alt="" data-aos="fade-right" data-aos-duration="1000"/>
             <div className="ps-4 space-y-6">
-              <h2 className="text-2xl md:text-4xl text-white font-bold w-10/12 text-start">
+              <h2 className="text-2xl md:text-4xl text-white font-bold w-10/12 text-start" data-aos="fade-up" data-aos-duration="1000">
                 Join Now & Earn 5% Rewads on Every Order.
               </h2>
-              <p className="md:text-xl text-white w-10/12 text-start">
+              <p className="md:text-xl text-white w-10/12 text-start" data-aos="fade-up" data-aos-duration="1000">
                 $280.00
               </p>
-              <div className="flex justify-start items-center gap-3 pb-4">
+              <div className="flex justify-start items-center gap-3 pb-4" data-aos="fade-up" data-aos-duration="1000">
                 <button className="flex items-center px-4 py-3 md:px-6 md:py-[14px] text-white bg-[#df2c50] hover:bg-[#268ccc] border-0 duration-500">
                   <FaShoppingBasket className="mr-2" />
                   <span>Buy Now</span>
@@ -55,15 +55,15 @@ const FeaturedItems = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className="md:grid grid-cols-2 justify-center items-center bg-gradient-to-r from-blue-300 to-purple-700 pb-14">
-            <img src="https://i.ibb.co/ZYHP12x/img2.png" alt="" />
+            <img src="https://i.ibb.co/ZYHP12x/img2.png" alt=""/>
             <div className="ps-4 space-y-6">
-              <h2 className="text-2xl md:text-4xl text-white font-bold w-10/12 text-start">
-                Join Now & Earn 5% Rewads on Every Order.
+              <h2 className="text-2xl md:text-4xl text-white font-bold w-10/12 text-start" data-aos="fade-up" data-aos-duration="1000">
+                Preferable Designed New Nike Tech Pack for Men.
               </h2>
-              <p className="md:text-xl text-white w-10/12 text-start">
+              <p className="md:text-xl text-white w-10/12 text-start" data-aos="fade-up" data-aos-duration="1000">
                 $320.00
               </p>
-              <div className="flex justify-start items-center gap-3 pb-4">
+              <div className="flex justify-start items-center gap-3 pb-4" data-aos="fade-up" data-aos-duration="1000">
                 <button className="flex items-center px-4 py-3 md:px-6 md:py-[14px] text-white bg-[#df2c50] hover:bg-[#b000b9] border-0 duration-500">
                   <FaShoppingBasket className="mr-2" />
                   <span>Buy Now</span>
