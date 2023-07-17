@@ -6,7 +6,7 @@
   height: 50px;
   width: 50px;
   font-size: 30px;
-  background-color: #e84766;
+  background-color: #f52a52;
   color: #ffffff;
   border: none;
   border-radius: 50%;
@@ -19,5 +19,5 @@
 }
 
 .scroll-button:hover {
-  background-color: #b000b9;
+  background-color: #1878b4;
 }
