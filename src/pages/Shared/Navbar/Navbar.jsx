@@ -15,7 +15,7 @@ const Navbar = () => {
   const onToggleMenu = () => {
     setMenuOpen(!isMenuOpen);
     console.log(isMenuOpen ? "Closed" : "Opened");
-  }; 
+  };
 
   // Dark Or Light Mood effect
   useEffect(() => {
@@ -32,135 +32,137 @@ const Navbar = () => {
     setIsDarkMode(!isDarkMode);
   };
 
-    // Scroll event handler
-    useEffect(() => {
-      const handleScroll = () => {
-        const isTop = window.scrollY === 0;
-        setNavbarVisible(isTop);
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
+  // Scroll event handler
+  useEffect(() => {
+    const handleScroll = () => {
+      const isTop = window.scrollY === 0;
+      setNavbarVisible(isTop);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-     <div
+      <div
         className={`lg:fixed lg:w-full lg:transition-transform duration-300 z-10 ${
           isNavbarVisible ? "lg:translate-y-0" : "lg:translate-y-0"
         }`}
       >
-      <div className="flex justify-between items-center px-3 py-2 md:px-8 md:py-4 bg-[#90cdf4] dark:bg-slate-700">
-        <Link to='/'>
-        <div>
-          <img src={logo} className="w-28 lg:w-36" alt="Logo" />
-        </div>
-        </Link>
-        <div
-          className={`absolute lg:static bg-[#90cdf4] dark:bg-slate-700 dark:text-white min-h-[60vh] lg:min-h-fit left-0 ${
-            isMenuOpen ? "top-[19%] md:top-[22%]" : "top-[-100%]"
-          } w-full lg:w-auto flex items-center px-5 duration-700 z-10`}
-        >
-          <div className="flex lg:flex-row flex-col lg:items-center gap-[3vw] lg:gap-[2vw] xl:gap-[3vw] text-lg">
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
-              }
-            >
-              <p className="hover:text-[#e84766] font-medium hover:duration-500">
-                Home
-              </p>
-            </NavLink>
-            <NavLink
-              to="/products"
-              className={({ isActive }) =>
-                isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
-              }
-            >
-              <p className="hover:text-[#e84766] font-medium hover:duration-500">
-                Products
-              </p>
-            </NavLink>
-            <NavLink
-              to="/dashboard"
-              className={({ isActive }) =>
-                isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
-              }
-            >
-              <p className="hover:text-[#e84766] font-medium hover:duration-500">
-                Dashboard
-              </p>
-            </NavLink>
-            <NavLink
-              to="/cart"
-              className={({ isActive }) =>
-                isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
-              }
-            >
-              <p className="hover:text-[#e84766] font-medium hover:duration-500">
-                Cart Icon
-              </p>
-            </NavLink>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
-              }
-            >
-              <p className="hover:text-[#e84766] font-medium hover:duration-500">
-                Contact Us
-              </p>
-            </NavLink>
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
-              }
-            >
-              <p className="hover:text-[#e84766] font-medium hover:duration-500">
-                About Us
-              </p>
-            </NavLink>
+        <div className="flex justify-between items-center px-3 py-2 md:px-8 md:py-4 bg-[#90cdf4] dark:bg-slate-700">
+          <Link to="/">
+            <div>
+              <img src={logo} className="w-28 lg:w-36" alt="Logo" />
+            </div>
+          </Link>
+          <div
+            className={`absolute lg:static bg-[#90cdf4] dark:bg-slate-700 dark:text-white min-h-[60vh] lg:min-h-fit left-0 ${
+              isMenuOpen ? "top-[19%] md:top-[22%]" : "top-[-100%]"
+            } w-full lg:w-auto flex items-center px-5 duration-700 z-10`}
+          >
+            <div className="flex lg:flex-row flex-col lg:items-center gap-[3vw] lg:gap-[2vw] xl:gap-[3vw] text-lg">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
+                }
+              >
+                <p className="hover:text-[#e84766] font-medium hover:duration-500">
+                  Home
+                </p>
+              </NavLink>
+              <NavLink
+                to="/products"
+                className={({ isActive }) =>
+                  isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
+                }
+              >
+                <p className="hover:text-[#e84766] font-medium hover:duration-500">
+                  Products
+                </p>
+              </NavLink>
+              <NavLink
+                to="/dashboard"
+                className={({ isActive }) =>
+                  isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
+                }
+              >
+                <p className="hover:text-[#e84766] font-medium hover:duration-500">
+                  Dashboard
+                </p>
+              </NavLink>
+              <NavLink
+                to="/cart"
+                className={({ isActive }) =>
+                  isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
+                }
+              >
+                <p className="hover:text-[#e84766] font-medium hover:duration-500">
+                  Cart Icon
+                </p>
+              </NavLink>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
+                }
+              >
+                <p className="hover:text-[#e84766] font-medium hover:duration-500">
+                  Contact Us
+                </p>
+              </NavLink>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive ? "text-[#e84766]" : "text-slate-700 dark:text-white"
+                }
+              >
+                <p className="hover:text-[#e84766] font-medium hover:duration-500">
+                  About Us
+                </p>
+              </NavLink>
+            </div>
           </div>
-        </div>
-        <div className="flex items-center gap-[1vw]">
-          <div>
-            {isDarkMode ? (
-              <div className="text-xl" onClick={handleThemeSwitch}>
-                <BsSun
-                  title="Make Light"
-                  className="text-xl md:text-2xl cursor-pointer"
-                />
-              </div>
+          <div className="flex items-center gap-[1vw]">
+            <div>
+              {isDarkMode ? (
+                <div className="text-xl" onClick={handleThemeSwitch}>
+                  <BsSun
+                    title="Make Light"
+                    className="text-xl md:text-2xl cursor-pointer"
+                  />
+                </div>
+              ) : (
+                <div className="text-xl" onClick={handleThemeSwitch}>
+                  <BsMoonStars
+                    title="Make Dark"
+                    className="text-xl md:text-2xl cursor-pointer"
+                  />
+                </div>
+              )}
+            </div>
+            <Link to="/login">
+              <button className="bg-[#b000b9] hover:bg-[#e84766] text-white px-3 py-1 text-sm md:text-base md:px-5 md:py-2 duration-500 rounded-full">
+                Login
+              </button>
+            </Link>
+            {isMenuOpen ? (
+              <IoMdClose
+                onClick={onToggleMenu}
+                className="text-xl md:text-2xl cursor-pointer lg:hidden"
+              />
             ) : (
-              <div className="text-xl" onClick={handleThemeSwitch}>
-                <BsMoonStars
-                  title="Make Dark"
-                  className="text-xl md:text-2xl cursor-pointer"
-                />
-              </div>
+              <FiMenu
+                onClick={onToggleMenu}
+                className="text-xl md:text-2xl cursor-pointer lg:hidden"
+              />
             )}
           </div>
-          <button className="bg-[#b000b9] hover:bg-[#e84766] text-white px-3 py-1 text-sm md:text-base md:px-5 md:py-2 duration-500 rounded-full">
-            Login
-          </button>
-          {isMenuOpen ? (
-            <IoMdClose
-              onClick={onToggleMenu}
-              className="text-xl md:text-2xl cursor-pointer lg:hidden"
-            />
-          ) : (
-            <FiMenu
-              onClick={onToggleMenu}
-              className="text-xl md:text-2xl cursor-pointer lg:hidden"
-            />
-          )}
         </div>
-      </div>
       </div>
     </>
   );

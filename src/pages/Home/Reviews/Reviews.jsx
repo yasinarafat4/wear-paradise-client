@@ -44,7 +44,7 @@ const Reviews = () => {
         {reviews.map((review) => (
           <SwiperSlide key={review.id}>
             <div className="text-center flex flex-col items-center space-y-3 md:space-y-6">
-              <div className="w-3/12 2xl:w-1/12 h-[90px] md:h-[185px] lg:h-[255px] xl:h-[330px] 2xl:h-[213px] rounded-full overflow-hidden">
+              <div className="w-3/12 md:w-2/12 xl:w-1/12 h-[90px] md:h-[125px] lg:h-[165px] xl:h-[117px] 2xl:h-[213px] rounded-full overflow-hidden">
                 <img
                   className="object-cover"
                   src={review.image}
