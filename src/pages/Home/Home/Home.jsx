@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet-async";
-import BackToTop from "../../../components/BackToTop/BackToTop";
 import Banner from "../Banner/Banner";
 import FeaturedItems from "../FeaturedItems/FeaturedItems";
 import Partners from "../Partners/Partners";
@@ -19,7 +18,6 @@ const Home = () => {
       <FeaturedItems></FeaturedItems>
       <Reviews></Reviews>
       <Partners></Partners>
-      <BackToTop></BackToTop>
     </div>
   );
 };

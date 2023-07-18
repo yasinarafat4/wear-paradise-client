@@ -21,6 +21,7 @@ const Footer = () => {
   return (
     <div>
       {/* Wave Animation Here*/}
+      <div className="dark:hidden">
       <Wave
         fill="#90cdf4"
         paused={false}
@@ -32,8 +33,9 @@ const Footer = () => {
         }}
         style={{ marginBottom: "-20px" }}
       />
+      </div>
       {/* Footer */}
-      <footer className="footer px-10 pt-6 bg-[#90cdf4] dark:bg-slate-700 text-base-content dark:text-white">
+      <footer className="footer px-10 pt-10 bg-[#90cdf4] dark:bg-slate-700 text-base-content dark:text-white">
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
