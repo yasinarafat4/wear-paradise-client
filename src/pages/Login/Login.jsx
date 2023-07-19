@@ -24,7 +24,7 @@ const Login = () => {
               </h2>
               <div className="text-center">
                 <h3 className="font-medium mb-6">
-                  Have not any account?{" "}
+                  Have Not Any Account?{" "}
                   <Link to="/signUp">
                     <span className="text-[#e84766] font-semibold">
                       Sign Up
